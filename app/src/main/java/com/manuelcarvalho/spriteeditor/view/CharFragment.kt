@@ -3,6 +3,7 @@ package com.manuelcarvalho.spriteeditor.view
 
 import android.graphics.Color
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -12,9 +13,7 @@ import android.widget.Button
 import com.manuelcarvalho.spriteeditor.R
 import kotlinx.android.synthetic.main.fragment_char.*
 
-/**
- * A simple [Fragment] subclass.
- */
+private const val TAG = "CharFragment"
 class CharFragment : Fragment() {
 
     override fun onCreateView(
@@ -31,6 +30,10 @@ class CharFragment : Fragment() {
         val listener = View.OnClickListener {v ->
             val b = v as Button
             b.setBackgroundColor(Color.RED)
+            Log.d(TAG," ${b.id-2131230000}")
+            val keyVal = getCharValue(b.id-2131230000)
+            Log.d(TAG," ${keyVal}")
+
         }
 
         button1.setOnClickListener(listener)
@@ -104,6 +107,30 @@ class CharFragment : Fragment() {
         button63.setOnClickListener(listener)
         button64.setOnClickListener(listener)
 
+    }
+
+    fun getCharValue(charKey: Int): Int{
+        var keyValue = 0
+        val buttonArray= arrayOf(
+            arrayOf(790,801,812,823,834,845,851,852),
+            arrayOf(853,791,792,793,794,795,796,797),
+            arrayOf(798,799,800,802,803,804,805,806),
+            arrayOf(807,808,809,810,811,813,814,815),
+            arrayOf(816,817,818,819,820,821,822,824),
+            arrayOf(825,826,827,828,829,830,831,832),
+            arrayOf(833,835,836,837,838,839,840,841),
+            arrayOf(842,843,844,846,847,848,849,850)
+        )
+
+        for (x in 0..7){
+            for (y in 0..7){
+                if (charKey == buttonArray[x][y]){
+                    keyValue = y
+                }
+            }
+        }
+
+        return keyValue
     }
 
 
