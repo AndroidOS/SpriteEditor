@@ -11,6 +11,7 @@ import android.view.ViewGroup
 import android.widget.Button
 
 import com.manuelcarvalho.spriteeditor.R
+import com.manuelcarvalho.spriteeditor.model.Pixel
 import kotlinx.android.synthetic.main.fragment_char.*
 
 private const val TAG = "CharFragment"
@@ -32,7 +33,7 @@ class CharFragment : Fragment() {
             b.setBackgroundColor(Color.RED)
             Log.d(TAG," ${b.id-2131230000}")
             val keyVal = getCharValue(b.id-2131230000)
-            Log.d(TAG," ${keyVal}")
+            Log.d(TAG," ${keyVal.column} ${keyVal.row}")
 
         }
 
@@ -109,8 +110,10 @@ class CharFragment : Fragment() {
 
     }
 
-    fun getCharValue(charKey: Int): Int{
-        var keyValue = 0
+    fun getCharValue(charKey: Int): Pixel{
+        var col = 0
+        var value = 0
+
         val buttonArray= arrayOf(
             arrayOf(790,801,812,823,834,845,851,852),
             arrayOf(853,791,792,793,794,795,796,797),
@@ -122,15 +125,18 @@ class CharFragment : Fragment() {
             arrayOf(842,843,844,846,847,848,849,850)
         )
 
-        for (x in 0..7){
-            for (y in 0..7){
+        for (y in 0..7){
+            for (x in 0..7){
                 if (charKey == buttonArray[x][y]){
-                    keyValue = y
+                    value = x
+                    col = y
                 }
             }
         }
 
-        return keyValue
+        var pixel = Pixel(col, value)
+
+        return pixel
     }
 
 
