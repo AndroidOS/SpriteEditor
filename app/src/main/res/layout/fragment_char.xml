@@ -13,16 +13,17 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="407dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button58"
+        app:layout_constraintStart_toEndOf="@+id/button58" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="324dp"
-        tools:layout_editor_absoluteY="367dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button64"
+        app:layout_constraintStart_toEndOf="@+id/button64" />
 
     <Button
         android:id="@+id/button57"
@@ -30,8 +31,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="195dp"
-        tools:layout_editor_absoluteY="609dp" />
+        app:layout_constraintStart_toStartOf="@+id/button49"
+        app:layout_constraintTop_toBottomOf="@+id/button49" />
 
     <Button
         android:id="@+id/button58"
@@ -39,8 +40,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="599dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button57"
+        app:layout_constraintStart_toEndOf="@+id/button57" />
 
     <Button
         android:id="@+id/button61"
@@ -48,8 +49,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="216dp"
-        tools:layout_editor_absoluteY="345dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button60"
+        app:layout_constraintStart_toEndOf="@+id/button60" />
 
     <Button
         android:id="@+id/button62"
@@ -57,8 +58,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="272dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button61"
+        app:layout_constraintStart_toEndOf="@+id/button61" />
 
     <Button
         android:id="@+id/button63"
@@ -66,8 +67,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="216dp"
-        tools:layout_editor_absoluteY="503dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button62"
+        app:layout_constraintStart_toEndOf="@+id/button62" />
 
     <Button
         android:id="@+id/button64"
@@ -75,8 +76,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="355dp"
-        tools:layout_editor_absoluteY="503dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button63"
+        app:layout_constraintStart_toEndOf="@+id/button63" />
 
     <Button
         android:id="@+id/button60"
@@ -84,8 +85,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="296dp"
-        tools:layout_editor_absoluteY="663dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button59"
+        app:layout_constraintStart_toEndOf="@+id/button59" />
 
     <Button
         android:id="@+id/button51"
@@ -93,16 +94,17 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="569dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button50"
+        app:layout_constraintStart_toEndOf="@+id/button50" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="484dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button56"
+        app:layout_constraintStart_toEndOf="@+id/button56" />
 
     <Button
         android:id="@+id/button49"
@@ -110,8 +112,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="284dp"
-        tools:layout_editor_absoluteY="513dp" />
+        app:layout_constraintStart_toStartOf="@+id/button41"
+        app:layout_constraintTop_toBottomOf="@+id/button41" />
 
     <Button
         android:id="@+id/button50"
@@ -119,8 +121,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="235dp"
-        tools:layout_editor_absoluteY="649dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button49"
+        app:layout_constraintStart_toEndOf="@+id/button49" />
 
     <Button
         android:id="@+id/button53"
@@ -128,8 +130,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="345dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button52"
+        app:layout_constraintStart_toEndOf="@+id/button52" />
 
     <Button
         android:id="@+id/button54"
@@ -137,8 +139,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="152dp"
-        tools:layout_editor_absoluteY="649dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button53"
+        app:layout_constraintStart_toEndOf="@+id/button53" />
 
     <Button
         android:id="@+id/button55"
@@ -146,8 +148,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="503dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button54"
+        app:layout_constraintStart_toEndOf="@+id/button54" />
 
     <Button
         android:id="@+id/button56"
@@ -155,8 +157,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="235dp"
-        tools:layout_editor_absoluteY="503dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button55"
+        app:layout_constraintStart_toEndOf="@+id/button55" />
 
     <Button
         android:id="@+id/button52"
@@ -164,16 +166,17 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="355dp"
-        tools:layout_editor_absoluteY="272dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button51"
+        app:layout_constraintStart_toEndOf="@+id/button51" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="433dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button48"
+        app:layout_constraintStart_toEndOf="@+id/button48" />
 
     <Button
         android:id="@+id/button41"
@@ -181,8 +184,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="244dp"
-        tools:layout_editor_absoluteY="513dp" />
+        app:layout_constraintStart_toStartOf="@+id/button33"
+        app:layout_constraintTop_toBottomOf="@+id/button33" />
 
     <Button
         android:id="@+id/button42"
@@ -190,8 +193,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="358dp"
-        tools:layout_editor_absoluteY="609dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button41"
+        app:layout_constraintStart_toEndOf="@+id/button41" />
 
     <Button
         android:id="@+id/button43"
@@ -199,8 +202,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="185dp"
-        tools:layout_editor_absoluteY="292dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button42"
+        app:layout_constraintStart_toEndOf="@+id/button42" />
 
     <Button
         android:id="@+id/button44"
@@ -208,8 +211,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="299dp"
-        tools:layout_editor_absoluteY="263dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button43"
+        app:layout_constraintStart_toEndOf="@+id/button43" />
 
     <Button
         android:id="@+id/button45"
@@ -217,8 +220,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="345dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button44"
+        app:layout_constraintStart_toEndOf="@+id/button44" />
 
     <Button
         android:id="@+id/button46"
@@ -226,8 +229,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="649dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button45"
+        app:layout_constraintStart_toEndOf="@+id/button45" />
 
     <Button
         android:id="@+id/button47"
@@ -235,8 +238,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="503dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button46"
+        app:layout_constraintStart_toEndOf="@+id/button46" />
 
     <Button
         android:id="@+id/button48"
@@ -244,16 +247,17 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="195dp"
-        tools:layout_editor_absoluteY="503dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button47"
+        app:layout_constraintStart_toEndOf="@+id/button47" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="216dp"
-        tools:layout_editor_absoluteY="447dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button40"
+        app:layout_constraintStart_toEndOf="@+id/button40" />
 
     <Button
         android:id="@+id/button33"
@@ -270,8 +274,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="48dp"
-        tools:layout_editor_absoluteY="447dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button33"
+        app:layout_constraintStart_toEndOf="@+id/button33" />
 
     <Button
         android:id="@+id/button35"
@@ -279,8 +283,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="244dp"
-        tools:layout_editor_absoluteY="367dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button34"
+        app:layout_constraintStart_toEndOf="@+id/button34" />
 
     <Button
         android:id="@+id/button36"
@@ -288,8 +292,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="423dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button35"
+        app:layout_constraintStart_toEndOf="@+id/button35" />
 
     <Button
         android:id="@+id/button37"
@@ -297,8 +301,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="345dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button36"
+        app:layout_constraintStart_toEndOf="@+id/button36" />
 
     <Button
         android:id="@+id/button38"
@@ -306,8 +310,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="639dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button37"
+        app:layout_constraintStart_toEndOf="@+id/button37" />
 
     <Button
         android:id="@+id/button39"
@@ -315,8 +319,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="503dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button38"
+        app:layout_constraintStart_toEndOf="@+id/button38" />
 
     <Button
         android:id="@+id/button40"
@@ -324,8 +328,8 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
-        tools:layout_editor_absoluteX="195dp"
-        tools:layout_editor_absoluteY="503dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/button39"
+        app:layout_constraintStart_toEndOf="@+id/button39" />
 
     <TextView
         android:id="@+id/textView4"
@@ -611,7 +615,7 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="36dp"
         android:width="10dp"
         android:height="10dp"
         app:layout_constraintStart_toStartOf="parent"
