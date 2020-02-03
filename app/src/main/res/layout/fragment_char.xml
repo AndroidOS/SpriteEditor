@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#4CAF50"
     tools:context=".view.CharFragment">
 
 
@@ -13,6 +14,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button58"
         app:layout_constraintStart_toEndOf="@+id/button58" />
 
@@ -31,6 +35,10 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:drawablePadding="0dp"
+        android:padding="@dimen/button_pad"
         app:layout_constraintStart_toStartOf="@+id/button49"
         app:layout_constraintTop_toBottomOf="@+id/button49" />
 
@@ -40,6 +48,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button57"
         app:layout_constraintStart_toEndOf="@+id/button57" />
 
@@ -49,6 +60,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button60"
         app:layout_constraintStart_toEndOf="@+id/button60" />
 
@@ -58,6 +72,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button61"
         app:layout_constraintStart_toEndOf="@+id/button61" />
 
@@ -67,6 +84,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button62"
         app:layout_constraintStart_toEndOf="@+id/button62" />
 
@@ -76,6 +96,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button63"
         app:layout_constraintStart_toEndOf="@+id/button63" />
 
@@ -85,6 +108,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button59"
         app:layout_constraintStart_toEndOf="@+id/button59" />
 
@@ -94,6 +120,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button50"
         app:layout_constraintStart_toEndOf="@+id/button50" />
 
@@ -112,6 +141,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintStart_toStartOf="@+id/button41"
         app:layout_constraintTop_toBottomOf="@+id/button41" />
 
@@ -121,6 +153,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button49"
         app:layout_constraintStart_toEndOf="@+id/button49" />
 
@@ -130,6 +165,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button52"
         app:layout_constraintStart_toEndOf="@+id/button52" />
 
@@ -139,6 +177,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button53"
         app:layout_constraintStart_toEndOf="@+id/button53" />
 
@@ -148,6 +189,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button54"
         app:layout_constraintStart_toEndOf="@+id/button54" />
 
@@ -157,6 +201,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button55"
         app:layout_constraintStart_toEndOf="@+id/button55" />
 
@@ -166,6 +213,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button51"
         app:layout_constraintStart_toEndOf="@+id/button51" />
 
@@ -184,6 +234,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintStart_toStartOf="@+id/button33"
         app:layout_constraintTop_toBottomOf="@+id/button33" />
 
@@ -193,6 +246,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button41"
         app:layout_constraintStart_toEndOf="@+id/button41" />
 
@@ -202,6 +258,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button42"
         app:layout_constraintStart_toEndOf="@+id/button42" />
 
@@ -211,6 +270,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button43"
         app:layout_constraintStart_toEndOf="@+id/button43" />
 
@@ -220,6 +282,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button44"
         app:layout_constraintStart_toEndOf="@+id/button44" />
 
@@ -229,6 +294,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button45"
         app:layout_constraintStart_toEndOf="@+id/button45" />
 
@@ -238,6 +306,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button46"
         app:layout_constraintStart_toEndOf="@+id/button46" />
 
@@ -247,8 +318,11 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:backgroundTint="@color/colorButton"
         app:layout_constraintBaseline_toBaselineOf="@+id/button47"
-        app:layout_constraintStart_toEndOf="@+id/button47" />
+        app:layout_constraintStart_toEndOf="@+id/button47"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:padding="@dimen/button_pad" />
 
     <TextView
         android:id="@+id/textView5"
@@ -265,6 +339,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintStart_toStartOf="@+id/button25"
         app:layout_constraintTop_toBottomOf="@+id/button25" />
 
@@ -274,6 +351,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button33"
         app:layout_constraintStart_toEndOf="@+id/button33" />
 
@@ -283,6 +363,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button34"
         app:layout_constraintStart_toEndOf="@+id/button34" />
 
@@ -292,6 +375,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button35"
         app:layout_constraintStart_toEndOf="@+id/button35" />
 
@@ -301,6 +387,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button36"
         app:layout_constraintStart_toEndOf="@+id/button36" />
 
@@ -310,6 +399,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button37"
         app:layout_constraintStart_toEndOf="@+id/button37" />
 
@@ -319,6 +411,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button38"
         app:layout_constraintStart_toEndOf="@+id/button38" />
 
@@ -328,6 +423,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button39"
         app:layout_constraintStart_toEndOf="@+id/button39" />
 
@@ -346,6 +444,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintStart_toStartOf="@+id/button17"
         app:layout_constraintTop_toBottomOf="@+id/button17" />
 
@@ -355,6 +456,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button25"
         app:layout_constraintStart_toEndOf="@+id/button25" />
 
@@ -364,6 +468,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button26"
         app:layout_constraintStart_toEndOf="@+id/button26" />
 
@@ -373,6 +480,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button27"
         app:layout_constraintStart_toEndOf="@+id/button27" />
 
@@ -382,6 +492,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button28"
         app:layout_constraintStart_toEndOf="@+id/button28" />
 
@@ -391,6 +504,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button29"
         app:layout_constraintStart_toEndOf="@+id/button29" />
 
@@ -400,6 +516,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button30"
         app:layout_constraintStart_toEndOf="@+id/button30" />
 
@@ -409,6 +528,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button31"
         app:layout_constraintStart_toEndOf="@+id/button31" />
 
@@ -418,6 +540,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button20"
         app:layout_constraintStart_toEndOf="@+id/button20" />
 
@@ -436,6 +561,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintStart_toStartOf="@+id/button9"
         app:layout_constraintTop_toBottomOf="@+id/button9" />
 
@@ -445,6 +573,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button17"
         app:layout_constraintStart_toEndOf="@+id/button17" />
 
@@ -454,6 +585,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button18"
         app:layout_constraintStart_toEndOf="@+id/button18" />
 
@@ -463,6 +597,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button19"
         app:layout_constraintStart_toEndOf="@+id/button19" />
 
@@ -472,6 +609,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button22"
         app:layout_constraintStart_toEndOf="@+id/button22" />
 
@@ -481,6 +621,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button23"
         app:layout_constraintStart_toEndOf="@+id/button23" />
 
@@ -490,6 +633,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button21"
         app:layout_constraintStart_toEndOf="@+id/button21" />
 
@@ -499,6 +645,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button10"
         app:layout_constraintStart_toEndOf="@+id/button10" />
 
@@ -517,6 +666,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintStart_toStartOf="@+id/button1"
         app:layout_constraintTop_toBottomOf="@+id/button1" />
 
@@ -526,6 +678,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button9"
         app:layout_constraintStart_toEndOf="@+id/button9" />
 
@@ -535,6 +690,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button12"
         app:layout_constraintStart_toEndOf="@+id/button12" />
 
@@ -544,6 +702,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button13"
         app:layout_constraintStart_toEndOf="@+id/button13" />
 
@@ -553,6 +714,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button14"
         app:layout_constraintStart_toEndOf="@+id/button14" />
 
@@ -562,6 +726,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button15"
         app:layout_constraintStart_toEndOf="@+id/button15" />
 
@@ -571,6 +738,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button11"
         app:layout_constraintStart_toEndOf="@+id/button11" />
 
@@ -580,6 +750,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button4"
         app:layout_constraintStart_toEndOf="@+id/button4" />
 
@@ -589,6 +762,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button3"
         app:layout_constraintStart_toEndOf="@+id/button3" />
 
@@ -598,6 +774,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button6"
         app:layout_constraintStart_toEndOf="@+id/button6" />
 
@@ -607,6 +786,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button5"
         app:layout_constraintStart_toEndOf="@+id/button5" />
 
@@ -618,6 +800,9 @@
         android:layout_marginTop="36dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline" />
 
@@ -627,6 +812,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button1"
         app:layout_constraintStart_toEndOf="@+id/button1" />
 
@@ -636,6 +824,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button7"
         app:layout_constraintStart_toEndOf="@+id/button7" />
 
@@ -645,6 +836,9 @@
         android:layout_height="40dp"
         android:width="10dp"
         android:height="10dp"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:backgroundTint="@color/colorButton"
+        android:padding="@dimen/button_pad"
         app:layout_constraintBaseline_toBaselineOf="@+id/button2"
         app:layout_constraintStart_toEndOf="@+id/button2" />
 
