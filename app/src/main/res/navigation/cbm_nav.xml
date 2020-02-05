@@ -3,11 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/cbm_nav"
-    app:startDestination="@id/charFragment">
+    app:startDestination="@id/spriteFragment">
 
     <fragment
         android:id="@+id/charFragment"
         android:name="com.manuelcarvalho.spriteeditor.view.CharFragment"
         android:label="fragment_char"
         tools:layout="@layout/fragment_char" />
+    <fragment
+        android:id="@+id/spriteFragment"
+        android:name="com.manuelcarvalho.spriteeditor.view.SpriteFragment"
+        android:label="fragment_sprite"
+        tools:layout="@layout/fragment_sprite" />
 </navigation>

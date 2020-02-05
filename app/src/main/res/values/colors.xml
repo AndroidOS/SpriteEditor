@@ -5,4 +5,10 @@
     <color name="colorAccent">#D81B60</color>
 
     <color name="colorButton">#AEEA00</color>
+
+    <color name="colorBackground">#FFFF5500</color>
+    <color name="colorPaint">#FFFFEB3B</color>
+
+    <color name="canvasBackground">#000000</color>
+    <color name="canvasColor">#FFFFFF</color>
 </resources>

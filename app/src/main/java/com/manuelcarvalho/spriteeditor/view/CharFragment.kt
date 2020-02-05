@@ -30,6 +30,7 @@ class CharFragment : Fragment() {
 
         val listener = View.OnClickListener {v ->
             val b = v as Button
+
             b.setBackgroundColor(Color.RED)
             Log.d(TAG," ${b.id-2131230000}")
             val keyVal = getCharValue(b.id-2131230000)
